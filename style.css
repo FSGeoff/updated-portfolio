@@ -1,7 +1,22 @@
+body{
+    background-color: wheat;
+}
+
 .tabs {
     background-color: #3879b1;
 }
 #top-tab{
     color: white;
     font-size: 25px;
+ }
+
+ #info-box {
+     background-color: #d0d0ca;
+     opacity: 0.8;
+     height: 65px;
+ }
+
+ #bio-pic{
+     background-color: teal;
+     height: 500px;
  }
