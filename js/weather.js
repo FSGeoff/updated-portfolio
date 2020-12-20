@@ -6,25 +6,35 @@ $(document).ready(function () {
 			url: queryURL,
 			method: "GET",
 		}).then(function (response) {
-			console.log(response);
-
-			const temp = Math.round(response.main.temp);
-			
+			const weatherArr = response.weather;
+			for (i = 0; i < weatherArr.length; i++) {
+				console.log(weatherArr[i]);
+			}
+            const temp = Math.round(response.main.temp) + "&#176;";
+            const description = weatherArr[0].description;
+            console.log(response);
+            console.log(description);
 
 			const icon = $("<img>");
 			icon.attr("height", "16px", "width", "16px");
-            const forecast = response.weather[0].main.toUpperCase();
-            console.log(forecast);
+			const forecast = response.weather[0].main.toUpperCase();
+			console.log(forecast);
 
-            switch(forecast) {
-                case "CLEAR":
+			switch (forecast) {
+				case "CLEAR":
                     icon.attr("src", "./icons/sun.png");
-                    default:
-                        icon.attr("src", "./icons/sun.png");    
-                    
-            }
+                    break;
+				case "CLOUDS":
+                    icon.attr("src", "./icons/cloudy.png");
+                    break;
+                    case "RAIN":
+                    icon.attr("src", "./icons/rain.png");
+                    break;
+				default:
+					icon.attr("src", "./icons/sun.png");
+			}
             $("#temp").append(temp, icon);
-            
+            $("#description").append(description)
 		});
 	}
 	keepTemp();

@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	const time = moment().format("LT");
+	const time = moment().format("dddd h:mm a");
 
 	function keepTime() {
 		setInterval(() => {

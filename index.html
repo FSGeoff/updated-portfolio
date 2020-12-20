@@ -26,6 +26,7 @@
 		<script src="./js/index.js" defer></script>
 		<script src="./js/weather.js" defer></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+		<script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.js"></script>
 	</head>
 	<body>
 		<div class="tabs is-centered">
@@ -37,9 +38,10 @@
 			</ul>
 		</div>
 		<div class="columns is-mobile">
-			<div class="column is-1 is-offset-11" id="info-box">
+			<div class="column is-2 is-offset-10" id="info-box">
 				<p id="time"></p>
 				<p id="temp"></p>
+				<p id="description"></p>
 			</div>
 		</div>
 		<div class="column is-5 is-offset-one-quarter" id="bio-pic">

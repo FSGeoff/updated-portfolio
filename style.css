@@ -11,12 +11,13 @@ body{
  }
 
  #info-box {
-     background-color: #d0d0ca;
-     opacity: 0.8;
+     outline: blanchedalmond, 4px;
      height: 65px;
+     float: right;
  }
 
  #bio-pic{
      background-color: teal;
      height: 500px;
  }
+ 
