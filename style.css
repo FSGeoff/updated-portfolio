@@ -1,5 +1,12 @@
-body{
-    background-color: wheat;
+html{
+    background-image:url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg") ;
+}
+
+/* body{
+    background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+} */
+#navbar{
+    background-color: #468be0;
 }
 
 .tabs {
@@ -14,10 +21,11 @@ body{
      outline: blanchedalmond, 4px;
      height: 65px;
      float: right;
+     color: darkgoldenrod;
  }
 
  #bio-pic{
-     background-color: teal;
-     height: 500px;
+    
+     height: 200px;
+     width: 200px;
  }
- 
