@@ -35,14 +35,14 @@ html {
 }
 
 #self {
-	color:#b125dc;
+	color:black;
     font-size: 35px;
     font-weight: 800;
     font-family: unset;
 	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 }
 span{
-    color: #b125dc;
+    color: black;
     font-size: 20px;
     font-family: unset;
 }
@@ -57,7 +57,7 @@ span{
 	background-color: black;
 }
 #work {
-	color: #2598dc;
+	color: #b125dc;
 	font-size: 25px;
 	background-color: black;
 }
