@@ -1,11 +1,9 @@
 $(document).ready(function () {
-	const time = moment().format("dddd h:mm a");
+	const time = moment().format("LT");
 
 	function keepTime() {
-		setInterval(() => {
-			$("#time").empty();
-			$("#time").append(time);
-		}, 4000);
+		$("#time").empty();
+		$("#time").append(time);
 	}
 
 	keepTime();

@@ -1,5 +1,80 @@
-#cont {
-    background-color: #eaf435;
-    margin: 5px;
-    border: 3px;
+html {
+	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+}
+
+/* body{
+    background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+} */
+#navbar {
+	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+}
+
+.tabs {
+	background-color: black;
+	position: relative;
+	animation: flip 2s;
+	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+}
+@keyframes flip {
+	0% {
+		top: 200px;
+	}
+	100% {
+		top: 0px;
+	}
+	from {
+		background-color: white;
+	}
+	to {
+		background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+	}
+}
+#top-tab {
+	font-size: 25px;
+	background-color: black;
+}
+#home {
+	color: #b125dc;
+	font-size: 25px;
+	background-color: black;
+}
+#bio {
+	color: rgb(250, 234, 4);
+	font-size: 25px;
+	background-color: black;
+}
+#work {
+	color: #2598dc;
+	font-size: 25px;
+	background-color: black;
+}
+#education {
+	color: #dc2525;
+	font-size: 25px;
+	background-color: black;
+}
+#projects {
+	color: #4adc25;
+	font-size: 25px;
+	background-color: black;
+}
+
+#info-box {
+	outline: 1px solid black;
+	height: 70px;
+	color: rgb(250, 234, 4);
+	font-size: 10px;
+	background-color: black;
+}
+
+#bio-pic {
+	height: 65px;
+    width: 65px;
+    z-index: -1;
+}
+#brand {
+    /* background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg"); */
+    background-color: black;
+    color: #fa0404;
+    font-size: 24px;
 }
