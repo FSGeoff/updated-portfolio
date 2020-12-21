@@ -1,31 +1,67 @@
-html{
-    background-image:url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg") ;
+html {
+	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 }
 
 /* body{
     background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 } */
-#navbar{
-    background-color: #468be0;
+#navbar {
+	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 }
 
 .tabs {
-    background-color: #3879b1;
+	background-color: black;
+	position: relative;
+	animation: flip 2s;
+	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 }
-#top-tab{
-    color: white;
+@keyframes flip {
+	0% {
+		top: 200px;
+	}
+	100% {
+		top: 0px;
+	}
+	from {
+		background-color: white;
+	}
+	to {
+		background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+	}
+}
+#top-tab {
+	font-size: 25px;
+	background-color: black;
+}
+#bio {
+    color: rgb(250, 234, 4);
     font-size: 25px;
- }
+	background-color: black;
+}
+#work {
+    color: #2598dc;
+    font-size: 25px;
+	background-color: black;
+}
+#education {
+    color: #dc2525;
+    font-size: 25px;
+	background-color: black;
+}
+#projects {
+    color: #4adc25;
+    font-size: 25px;
+	background-color: black;
+}
 
- #info-box {
-     outline: blanchedalmond, 4px;
-     height: 65px;
-     float: right;
-     color: darkgoldenrod;
- }
+#info-box {
+	outline: blanchedalmond, 4px;
+	height: 65px;
+	float: right;
+	color: darkgoldenrod;
+}
 
- #bio-pic{
-    
-     height: 200px;
-     width: 200px;
- }
+#bio-pic {
+	height: 200px;
+	width: 200px;
+}

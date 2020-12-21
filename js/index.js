@@ -5,7 +5,7 @@ $(document).ready(function () {
 		setInterval(() => {
 			$("#time").empty();
 			$("#time").append(time);
-		}, 1000);
+		}, 4000);
 	}
 
 	keepTime();
