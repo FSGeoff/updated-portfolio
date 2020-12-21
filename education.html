@@ -5,7 +5,10 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>Portfolio Page</title>
-		<meta name="description" content="" />
+		<meta
+			name="description"
+			content="Professional Portfolio for Geoff Nix"
+		/>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<script
@@ -31,40 +34,116 @@
 	<body>
 		<div class="tabs is-centered" id="nav-bar">
 			<ul>
-				<li class="is-active"><a href="index.html" id="home" >Home</a></li>
+				<li class="is-active">
+					<a href="index.html" id="home">Home</a>
+				</li>
 				<li class="is-active"><a href="bio.html" id="bio">Bio</a></li>
-				<li><a href="workHistory.html" id="work">Work History</a></li>
-				<li><a href="education.html" id="education">Education</a></li>
-				<li><a href="projects.html" id="projects">Projects</a></li>
-            </ul>
-            
+				<li class="is-active">
+					<a href="workHistory.html" id="work">Work History</a>
+				</li>
+				<li class="is-active">
+					<a href="education.html" id="education">Education</a>
+				</li>
+				<li class="is-active">
+					<a href="projects.html" id="projects">Projects</a>
+				</li>
+			</ul>
+		</div>
+		<div class="container" id="edu-box">
+			<p>
+				<img
+					id="camp"
+					src="https://cdn.georgiatechbootcamp.com/wp-content/themes/GA-Tech-V3.5/media/img/Professional-Education-solid-white.svg"
+				/>
+			</p>
+			<h1 id="tech">
+				GA TECH CODING BOOTCAMP
+				<span id="edu-dates">August/2020-February/2021</span>
+			</h1>
+			<h2 id="skills-hdr">Skills Acquired</h2>
+			<div class="columns">
+				<div class="column has-text-left">
+					<ul id="skills-list">
+						<li>&bull;HTML, CSS, and JavaScript</li>
+						<li>&bull;Creating a web page from scratch</li>
+						<li>&bull;Mastering terminal commands</li>
+						<li>&bull;DOM manipulation</li>
+						<li>&bull;jQuery</li>
+						<li>&bull;Parsing JSON to extract meaningful data</li>
+					</ul>
+				</div>
+				<div class="column has-text-left">
+					<ul id="skills-list">
+						<li>&bull;Consuming RESTful APIs</li>
 
-        </div>
-        <div class="container">
-            <p> <img  id="camp" src="https://cdn.georgiatechbootcamp.com/wp-content/themes/GA-Tech-V3.5/media/img/Professional-Education-solid-white.svg"></p>
-           
-        </div>
-        <div class="container"><div class="columns">
-            <div class="column">
-              <img src="./images/mcEmail.png">
-            </div>
-            <div class="column">
-                <img src="./images/Admin.png">
-            </div>
-            <div class="column">
-                <img src="./images/mcCon.png">
-            </div></div>
-        </div><div class="container"><div class="columns">
-            <div class="column">
-              <img src="./images/platApp.png">
-            </div>
-            <div class="column">
-                <img src="./images/platDev.png">
-            </div>
-            <div class="column">
-                <img src="./images/B2B.png">
-            </div></div>
-        
-        
+						<li>&bull;Using AJAX to update data on a website</li>
+						<li>
+							&bull;Writing Node.js server code to serve static
+							web pages
+						</li>
+						<li>
+							&bull;Querying large amounts of data and answering
+							questions from a MySQL database
+						</li>
+					</ul>
+				</div>
+				<div class="column has-text-left">
+					<ul id="skills-list">
+						<li>
+							&bull;Understanding and using Joins, Wheres, and
+							Counts strategically
+						</li>
+						<li>
+							&bull;Utilizing NoSQL databases, such as MongoDB, as
+							an alternative to MySQL
+						</li>
+						<li>&bull;Improving the performance of applications</li>
+					</ul>
+				</div>
+				<div class="column">
+					<ul id="skills-list">
+						<li>
+							&bull;Converting traditional applications into
+							progressive web applications (PWAs)
+						</li>
+						<li>
+							&bull;Creating single-page applications with React
+						</li>
+						<li>
+							&bull;Computer Science applied to JavaScript (data
+							structures, algorithms)
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<img src="./images/mcEmail.png" />
+				</div>
+				<div class="column">
+					<img src="./images/Admin.png" />
+				</div>
+				<div class="column">
+					<img src="./images/mcCon.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="columns">
+				<div class="column">
+					<img src="./images/platApp.png" />
+				</div>
+				<div class="column">
+					<img src="./images/platDev.png" />
+				</div>
+				<div class="column">
+					<img src="./images/B2B.png" />
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
