@@ -33,7 +33,6 @@ html {
 	font-size: 25px;
 	background-color: black;
 }
-
 #home {
 	color: #b125dc;
 	font-size: 25px;
@@ -70,12 +69,12 @@ html {
 
 #bio-pic {
 	height: 65px;
-	width: 65px;
-	z-index: -1;
+    width: 65px;
+    z-index: -1;
 }
 #brand {
-	/* background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg"); */
-	background-color: black;
-	color: #fa0404;
-	font-size: 24px;
+    /* background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg"); */
+    background-color: black;
+    color: #fa0404;
+    font-size: 24px;
 }
