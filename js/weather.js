@@ -22,16 +22,16 @@ $(document).ready(function () {
 
 			switch (forecast) {
 				case "CLEAR":
-                    icon.attr("src", "./icons/sun.png");
+                    icon.attr("src", "../icons/sun.png");
                     break;
 				case "CLOUDS":
-                    icon.attr("src", "./icons/cloudy.png");
+                    icon.attr("src", "../icons/cloudy.png");
                     break;
                     case "RAIN":
-                    icon.attr("src", "./icons/rain.png");
+                    icon.attr("src", "../icons/rain.png");
                     break;
 				default:
-					icon.attr("src", "./icons/sun.png");
+					icon.attr("src", "../icons/sun.png");
 			}
             $("#temp").append(temp, icon);
             $("#description").append(description)
