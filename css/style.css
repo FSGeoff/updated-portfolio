@@ -18,10 +18,10 @@ html {
 }
 @keyframes flip {
 	0% {
-		top: 200px;
+		left: 1200px;
 	}
 	100% {
-		top: 0px;
+		left: 0px;
 	}
 	from {
 		background-color: white;
@@ -52,7 +52,7 @@ span {
 	font-family: unset;
 }
 #home {
-	color: #e7a01b;
+	color: #b125dc;
 	font-size: 25px;
 	background-color: black;
 }
@@ -62,7 +62,7 @@ span {
 	background-color: black;
 }
 #work {
-	color: #b125dc;
+	color: #2598dc;
 	font-size: 25px;
 	background-color: black;
 }

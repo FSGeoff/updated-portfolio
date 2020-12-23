@@ -18,10 +18,10 @@ html {
 }
 @keyframes flip {
 	0% {
-		top: 200px;
+		left: 1200px;
 	}
 	100% {
-		top: 0px;
+		left: 0px;
 	}
 	from {
 		background-color: white;
@@ -145,3 +145,4 @@ html {
 	100% {
 	  opacity:1;
   }
+}
