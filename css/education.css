@@ -11,6 +11,7 @@ html {
 
 .tabs {
 	background-color: black;
+	opacity: 70%;
 	position: relative;
 	animation: flip 2s;
 	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
@@ -92,6 +93,7 @@ html {
 
 #edu-box {
 	background-color: black;
+	opacity: 85%;
 	outline: 2px solid white;
 	border: 5px;
 	padding: 5px;

@@ -11,6 +11,7 @@ html {
 
 .tabs {
 	background-color: black;
+	opacity: 70%;
 	position: relative;
 	animation: flip 2s;
 	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
@@ -47,6 +48,7 @@ html {
 	color: white;
 	outline: 2px solid white;
 	background-color: black;
+	opacity: 85%;
 	text-align: center;
     font-size: 40px;
     font-weight: 500;
