@@ -42,10 +42,10 @@ html {
 	font-family: unset;
 	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 }
-/* img {
+#me {
 	height: 100px;
 	width: 80px;
-} */
+}
 span {
 	color: black;
 	font-size: 20px;
@@ -99,4 +99,5 @@ span {
 }
 #links {
 	font-size: 20px;
+	text-align: center;
 }

@@ -23,31 +23,31 @@ $(document).ready(function () {
 
 			switch (forecast) {
 				case "CLEAR":
-					icon.attr("src", "../icons/sun.png");
+					icon.attr("src", "./icons/sun.png");
 					break;
 					case "SCATTERED CLOUDS":
-					icon.attr("src", "../icons/cloudy.png");
+					icon.attr("src", "./icons/cloudy.png");
 					break;
 				case "CLOUDS":
-					icon.attr("src", "../icons/cloudy.png");
+					icon.attr("src", "./icons/cloudy.png");
 					break;
 				case "RAIN":
-					icon.attr("src", "../icons/rain.png");
+					icon.attr("src", "./icons/rain.png");
 					break;
 				case "SNOW":
-					icon.attr("src", "../icons/snow.png");
+					icon.attr("src", "./icons/snow.png");
 					break;
 				case "WIND":
-					icon.attr("src", "../icons/windy.png");
+					icon.attr("src", "./icons/windy.png");
 					break;
 				case "WINDY":
 					icon.attr("src", "../icons/windy.png");
 					break;
 				case "THUNDER":
-					icon.attr("src", "../icons/thunder.png");
+					icon.attr("src", "./icons/thunder.png");
 					break;
 				default:
-					icon.attr("src", "../icons/sun.png");
+					icon.attr("src", "./icons/sun.png");
 			}
 			$("#temp").append(temp, icon);
 			$("#description").append(description);
