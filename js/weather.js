@@ -16,13 +16,17 @@ $(document).ready(function () {
 			console.log(description);
 
 			const icon = $("<img>");
-			icon.attr("height", "16px", "width", "16px");
+			icon.attr("height", "16px");
+			icon.attr("width", "16px");
 			const forecast = response.weather[0].main.toUpperCase();
 			console.log(forecast);
 
 			switch (forecast) {
 				case "CLEAR":
 					icon.attr("src", "../icons/sun.png");
+					break;
+					case "SCATTERED CLOUDS":
+					icon.attr("src", "../icons/cloudy.png");
 					break;
 				case "CLOUDS":
 					icon.attr("src", "../icons/cloudy.png");
