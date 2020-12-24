@@ -14,6 +14,8 @@ $(document).ready(function () {
 			const description = weatherArr[0].description;
 			console.log(response);
 			console.log(description);
+			console.log(time);
+			
 
 			const icon = $("<img>");
 			icon.attr("height", "16px");
