@@ -11,7 +11,7 @@ $(document).ready(function () {
 				console.log(weatherArr[i]);
 			}
 			const temp = Math.round(response.main.temp) + "&#176;";
-			const description = weatherArr[0].description;
+			const description = " "+weatherArr[0].description;
 			console.log(response);
 			console.log(description);
 			console.log(time);

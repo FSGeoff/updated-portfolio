@@ -44,7 +44,7 @@ html {
 }
 #me {
 	height: 100px;
-	width: 80px;
+	width: 90px;
 	outline: 1px solid white;
 }
 span {
@@ -82,8 +82,10 @@ span {
 	outline: 1px solid white;
 	height: 70px;
 	color: rgb(250, 234, 4);
-	font-size: 10px;
+	font-size: 12px;
 	background-color: black;
+	height: 100px;
+	width: 90px;
 }
 
 #bio-pic {
