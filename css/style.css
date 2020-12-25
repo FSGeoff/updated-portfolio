@@ -2,11 +2,11 @@ html {
 	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
 }
 
-/* body{
-    background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
-} */
 #navbar {
 	background-image: url("https://edge.alluremedia.com.au/m/l/2015/06/CodingSnippet.jpg");
+}
+#nav-bar {
+	cursor: pointer;
 }
 
 .tabs {
@@ -45,6 +45,7 @@ html {
 #me {
 	height: 100px;
 	width: 80px;
+	outline: 1px solid white;
 }
 span {
 	color: black;
@@ -78,7 +79,7 @@ span {
 }
 
 #info-box {
-	outline: 1px solid black;
+	outline: 1px solid white;
 	height: 70px;
 	color: rgb(250, 234, 4);
 	font-size: 10px;
