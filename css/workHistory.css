@@ -19,10 +19,10 @@ html {
 }
 @keyframes flip {
 	0% {
-		left: 1200px;
+		right: 1200px;
 	}
 	100% {
-		left: 0px;
+		right: 0px;
 	}
 	from {
 		background-color: white;

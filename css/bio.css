@@ -18,10 +18,10 @@ html {
 }
 @keyframes flip {
 	0% {
-		left: 1200px;
+		right: 1200px;
 	}
 	100% {
-		left: 0px;
+		right: 0px;
 	}
 	from {
 		background-color: white;
@@ -63,7 +63,7 @@ html {
 #bio-txt {
 	color: white;
 	font-size: 20px;
-	text-align: center;
+	text-align: justify;
 }
 #work {
 	color: #2598dc;
@@ -104,11 +104,11 @@ html {
 }
 
 .fade-in {
-	animation: fadeIn ease 10s;
-	-webkit-animation: fadeIn ease 10s;
-	-moz-animation: fadeIn ease 10s;
-	-o-animation: fadeIn ease 10s;
-	-ms-animation: fadeIn ease 10s;
+	animation: fadeIn ease 12s;
+	-webkit-animation: fadeIn ease 12s;
+	-moz-animation: fadeIn ease 12s;
+	-o-animation: fadeIn ease 12s;
+	-ms-animation: fadeIn ease 12s;
 }
 @keyframes fadeIn {
 	0% {
