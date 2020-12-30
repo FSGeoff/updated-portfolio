@@ -48,6 +48,18 @@ $(document).ready(function () {
 					case "THUNDER":
 						icon.attr("src", "./icons/thunder.png");
 						break;
+					case "FOG":
+						icon.attr(
+							"src",
+							"https://cdn3.iconfinder.com/data/icons/picons-weather/57/32_fog_cloud-512.png"
+						);
+						break;
+					case "HAZE":
+						icon.attr(
+							"src",
+							"https://static.vecteezy.com/system/resources/previews/000/441/037/original/haze-vector-icon.jpg"
+						);
+						break;
 					default:
 						icon.attr("src", "./icons/sun.png");
 				}
