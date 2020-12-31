@@ -12,7 +12,7 @@ $(document).ready(function () {
 					console.log(weatherArr[i]);
 				}
 				const temp = Math.round(response.main.temp) + "&#176;";
-				const description = " " + weatherArr[0].description;
+				const description = " " + weatherArr[0].description.toUpperCase();
 				console.log(response);
 				console.log(description);
 				console.log(time);
@@ -20,7 +20,7 @@ $(document).ready(function () {
 				const icon = $("<img>");
 				icon.attr("height", "16px");
 				icon.attr("width", "16px");
-				const forecast = response.weather[0].main.toUpperCase();
+				const forecast = weatherArr[0].main.toUpperCase();
 				console.log(forecast);
 
 				switch (forecast) {
@@ -58,6 +58,12 @@ $(document).ready(function () {
 						icon.attr(
 							"src",
 							"https://static.vecteezy.com/system/resources/previews/000/441/037/original/haze-vector-icon.jpg"
+						);
+						break;
+						case "MIST":
+						icon.attr(
+							"src",
+							"https://cdn0.iconfinder.com/data/icons/weather-347/64/fog-weather-mist-512.png"
 						);
 						break;
 					default:
